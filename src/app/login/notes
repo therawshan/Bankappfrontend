@@ -1,0 +1,16 @@
+Data binding
+-share data inside the component
+
+    1. One way binding-(data sharing only one direction)
+
+         ts-component
+         html-view
+
+         1.1 component to view(ts->html)
+             a)string interpolation - {} 
+             b)property binding-[attribute_name]="property"
+
+         1.2 view to component (html -> ts)
+
+             a) Event binding -(event_name)=function_name()  
+             b)event binding using $event- (event_name)="function_name($event) 
